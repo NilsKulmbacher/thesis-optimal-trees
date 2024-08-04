@@ -53,7 +53,6 @@ if  __name__  ==  '__main__':
 │   ├── binary/  *(datasets after binarization)*
 │   ├── original/
 │   └── datasets_summary.csv
-├── literature/
 ├── src/
 │   ├── experiments/ *(notebooks for testing purposes)*
 │   ├── modelling/ *(implementations to run the models, metrics, plots)*
@@ -66,7 +65,6 @@ if  __name__  ==  '__main__':
 │   ├── main.py
 │   ├── tuning_gosdt.py *(tuning plots from appendix)*
 │   └── requirements.txt
-├── supervisor-meetings/
 ├── thesis.pdf *(finished thesis document)*
 └── README.md
 ```
