@@ -1,0 +1,91 @@
+GOSDT,ATTRITION,2024-05-25 15:09:23.082962,"Traceback (most recent call last):
+  File ""c:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 184, in start_gosdt
+    gosdt.fit()
+  File ""c:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 305, in fit
+    self.X, thresholds, header, threshold_guess_time = compute_thresholds(self.X, self.y, n_est,max_depth_warm_labels)
+  File ""C:\Users\nilku\AppData\Local\Programs\Python\Python310\lib\site-packages\gosdt\model\threshold_guess.py"", line 88, in compute_thresholds
+    X, thresholds, header = get_thresholds(X, y, n_est, lr, max_depth, backselect=True)
+  File ""C:\Users\nilku\AppData\Local\Programs\Python\Python310\lib\site-packages\gosdt\model\threshold_guess.py"", line 75, in get_thresholds
+    Xp[c[i]] = X_new[c[i]]
+UnboundLocalError: local variable 'c' referenced before assignment
+"
+BinOCT,PHONEME,2024-06-11 12:16:44.972305,"Traceback (most recent call last):
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 134, in start_bin
+    oct.fit(X_train, y_train)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 208, in fit
+    self._model.fit(X_train.values, y_train.values)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\binOCText\binoct.py"", line 55, in fit
+    m.optimize()
+  File ""src\\gurobipy\\model.pxi"", line 893, in gurobipy.Model.optimize
+gurobipy.GurobiError: Out of memory
+"
+BinOCT,IONOSPHERE,2024-06-11 12:35:42.579003,"Traceback (most recent call last):
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 134, in start_bin
+    oct.fit(X_train, y_train)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 208, in fit
+    self._model.fit(X_train.values, y_train.values)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\binOCText\binoct.py"", line 55, in fit
+    m.optimize()
+  File ""src\\gurobipy\\model.pxi"", line 893, in gurobipy.Model.optimize
+gurobipy.GurobiError: Out of memory
+"
+BinOCT,IONOSPHERE,2024-06-11 12:40:56.117072,"Traceback (most recent call last):
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 134, in start_bin
+    oct.fit(X_train, y_train)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 208, in fit
+    self._model.fit(X_train.values, y_train.values)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\binOCText\binoct.py"", line 55, in fit
+    m.optimize()
+  File ""src\\gurobipy\\model.pxi"", line 893, in gurobipy.Model.optimize
+gurobipy.GurobiError: Out of memory
+"
+BinOCT,WDBC,2024-06-11 12:53:33.010766,"Traceback (most recent call last):
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 134, in start_bin
+    oct.fit(X_train, y_train)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 208, in fit
+    self._model.fit(X_train.values, y_train.values)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\binOCText\binoct.py"", line 55, in fit
+    m.optimize()
+  File ""src\\gurobipy\\model.pxi"", line 893, in gurobipy.Model.optimize
+gurobipy.GurobiError: Out of memory
+"
+BinOCT,PHONEME,2024-06-11 13:06:17.909420,"Traceback (most recent call last):
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 134, in start_bin
+    oct.fit(X_train, y_train)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 208, in fit
+    self._model.fit(X_train.values, y_train.values)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\binOCText\binoct.py"", line 55, in fit
+    m.optimize()
+  File ""src\\gurobipy\\model.pxi"", line 893, in gurobipy.Model.optimize
+gurobipy.GurobiError: Out of memory
+"
+BinOCT,MUSHROOM,2024-06-11 13:28:22.325711,"Traceback (most recent call last):
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 134, in start_bin
+    oct.fit(X_train, y_train)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 208, in fit
+    self._model.fit(X_train.values, y_train.values)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\binOCText\binoct.py"", line 55, in fit
+    m.optimize()
+  File ""src\\gurobipy\\model.pxi"", line 893, in gurobipy.Model.optimize
+gurobipy.GurobiError: Out of memory
+"
+BinOCT,BANK_MKT,2024-06-11 13:50:27.888233,"Traceback (most recent call last):
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 134, in start_bin
+    oct.fit(X_train, y_train)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 208, in fit
+    self._model.fit(X_train.values, y_train.values)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\binOCText\binoct.py"", line 55, in fit
+    m.optimize()
+  File ""src\\gurobipy\\model.pxi"", line 893, in gurobipy.Model.optimize
+gurobipy.GurobiError: Out of memory
+"
+BinOCT,ATTRITION,2024-06-11 16:21:59.987095,"Traceback (most recent call last):
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\main.py"", line 134, in start_bin
+    oct.fit(X_train, y_train)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\models.py"", line 208, in fit
+    self._model.fit(X_train.values, y_train.values)
+  File ""C:\Users\nilku\Desktop\PROJECTS\BAN-thesis-optimal-trees\src\modelling\binOCText\binoct.py"", line 55, in fit
+    m.optimize()
+  File ""src\\gurobipy\\model.pxi"", line 893, in gurobipy.Model.optimize
+gurobipy.GurobiError: Out of memory
+"

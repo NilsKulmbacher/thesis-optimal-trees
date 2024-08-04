@@ -1,0 +1,5 @@
+src/outputs/**/*.png
+src/venv/
+*.pyc
+__pycache__/
+.vscode/settings.json
